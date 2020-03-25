@@ -1,5 +1,5 @@
 var http= require("http");
-var manejador=function(solicitud,respuesta);{
+var manejador=function(solicitud,respuesta){
   console.log("hello world");
   respuesta.end("Hola mundo");
   }
